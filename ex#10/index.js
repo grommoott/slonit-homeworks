@@ -20,7 +20,7 @@ function getSortedListOfNumericFields(obj) {
         }
     }
 
-    numericFields.sort((a, b) => obj[a] - obj[b])
+    numericFields.sort((a, b) => obj[b] - obj[a])
 
     return numericFields
 }
